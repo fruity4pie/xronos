@@ -4522,7 +4522,8 @@ h4 {
 
 .container {
     max-width: 1170px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 .row-flex {
@@ -5047,6 +5048,36 @@ dl dd {
     position: relative;
     z-index: 11;
     color: #fff
+}
+
+.parallax {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  z-index: 1;
+}
+
+.parallax-section-first {
+  height: 100%
+}
+
+.parallax-section-second {
+  bottom: 0;
+  right: 0;
+}
+
+.parallax-section-first img {
+  position: absolute;
+  width: 110%;
+  height: 100%;
+  left: -5%;
+}
+
+.parallax-section-second img {
+  position: absolute;
+  bottom: 0;
 }
 
 .main-block .row-flex {
@@ -7486,7 +7517,7 @@ img.graph {
         max-width: none
     }
     .container {
-        width: 940px
+        width: 940px;
     }
     .nav-holder {
         position: relative
