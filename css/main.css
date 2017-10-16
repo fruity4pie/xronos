@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: ProximaNova-Extrabld;
+    src: url(../font/ProximaNova-Extrabld.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova-Bold;
+    src: url(../font/ProximaNova-Bold.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova-RegularIt;
+    src: url(../font/ProximaNova-RegularIt.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova-Light;
+    src: url(../font/ProximaNova-Light.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url(../font/ProximaNova-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 
 button,
@@ -234,46 +270,6 @@ summary {
 [hidden],
 template {
     display: none
-}
-
-@font-face {
-    font-family: ProximaNova-Extrabld;
-    src: url(../font/ProximaNova-Extrabld.eot);
-    src: url(../font/ProximaNova-Extrabld.eot?#iefix) format('embedded-opentype'), url(../font/ProximaNova-Extrabld.woff) format('woff'), url(../font/ProximaNova-Extrabld.ttf) format('truetype'), url(../font/ProximaNova-Extrabld.svg#ProximaNova-Extrabld) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: ProximaNova-Bold;
-    src: url(../font/ProximaNova-Bold.eot);
-    src: url(../font/ProximaNova-Bold.eot?#iefix) format('embedded-opentype'), url(../font/ProximaNova-Bold.woff) format('woff'), url(../font/ProximaNova-Bold.ttf) format('truetype'), url(../font/ProximaNova-Bold.svg#ProximaNova-Bold) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: ProximaNova-RegularIt;
-    src: url(../font/ProximaNova-RegularIt.eot);
-    src: url(../font/ProximaNova-RegularIt.eot?#iefix) format('embedded-opentype'), url(../font/ProximaNova-RegularIt.woff) format('woff'), url(../font/ProximaNova-RegularIt.ttf) format('truetype'), url(../font/ProximaNova-RegularIt.svg#ProximaNova-RegularIt) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: ProximaNova-Light;
-    src: url(../font/ProximaNova-Light.eot);
-    src: url(../font/ProximaNova-Light.eot?#iefix) format('embedded-opentype'), url(../font/ProximaNova-Light.woff) format('woff'), url(../font/ProximaNova-Light.ttf) format('truetype'), url(../font/ProximaNova-Light.svg#ProximaNova-Light) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: ProximaNova-Regular;
-    src: url(../font/ProximaNova-Regular.eot);
-    src: url(../font/ProximaNova-Regular.eot?#iefix) format('embedded-opentype'), url(../font/ProximaNova-Regular.woff) format('woff'), url(../font/ProximaNova-Regular.ttf) format('truetype'), url(../font/ProximaNova-Regular.svg#ProximaNova-Regular) format('svg');
-    font-weight: 400;
-    font-style: normal
 }
 
 .owl-carousel,
@@ -4313,8 +4309,6 @@ html {
 }
 
 body {
-    background: url(../images/bg-body.svg) 50% 50% no-repeat;
-    background-size: cover;
     font: 18px/22px ProximaNova-Regular, Arial, Helvetica, sans-serif;
     color: #000;
     min-width: 320px
@@ -6726,22 +6720,12 @@ img.graph {
 }
 
 .footer {
-    background: url(../images/bg-start-block.jpg) 50% 50%;
+    background: #000;
     border-top: 1px solid #413111;
     padding: 46px 0 86px;
     color: #fff;
     font-family: ProximaNova-Light, Arial, Helvetica, sans-serif;
     position: relative
-}
-
-.footer:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .7)
 }
 
 .footer .subscribe-form__input,
