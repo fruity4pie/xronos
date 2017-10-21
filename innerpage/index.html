@@ -98,30 +98,22 @@
 								</li>
 								<li><a href="#">Documents</a></li>
 								<li><a href="#">Second Title</a></li>
-								<li>Публичное API H1 заголовок</li>
+								<li>Публичное API H2 заголовок</li>
 							</ul>
 						</nav>
-						<h2>Публичное API H1 заголовок</h2>
-						<h3>Формат запроса H2 Заголовок</h3>
+						<h2>Публичное API H2 заголовок</h2>
+						<h3>Формат запроса H3 Заголовок</h3>
 						<p>Данные операции позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о <a href="#">текущем состоянии</a> системы Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы <a href="#">Xronos.space.</a></p>
-						<h4>Примеры H3 Заголовок</h4>
-						<div class="code-example">
-							<div class="main-section-example">
-								<p>1. Запрос из консоли (утилита curl):</p>
-								<span>с параметром:</span>
-							</div>
-							<pre class="main-section-php"><code>curl --get "parametr=value" http://public.xronos.space/?command=command</code></pre>
-							<div class="main-section-example">
-								<span>без параметра:</span>
-							</div>
-							<pre class="main-section-php"><code>curl --get "parametr=value" http://public.xronos.space/?command=command</code></pre>
-						</div>
-						<div class="code-example">
-							<div class="main-section-example">
-								<p>2. Запрос на Javascript (Ajax):</p>
-								<span>Пример с кодом</span>
-							</div>
-							<pre class="js-code-example"><code>var result = $.ajax({
+						<h4>Примеры H4 Заголовок</h4>
+						<p><b>1. Запрос из консоли (утилита curl):</b></p>
+						<p>с параметром:</p>
+						<pre class="main-section-php"><code>curl --get "parametr=value" http://public.xronos.space/?command=command</code></pre>
+						<p>без параметра:</p>
+						<pre class="main-section-php"><code>curl --get "parametr=value" http://public.xronos.space/?command=command</code></pre>
+
+						<p><b>2. Запрос на Javascript (Ajax):</b></p>
+						<p>Пример с кодом</p>
+						<pre class="js-code-example"><code>var result = $.ajax({
     async: false,
     type: "GET",
     url: "http://public.xronos.space/?command=command
@@ -129,10 +121,7 @@
         parametr: "value"
 		}
 }).responseText;</code></pre>
-						</div>
-						<div class="main-section-example">
-							<span>Красочный бокс для выделения</span>
-						</div>
+						<p>Красочный бокс для выделения</p>
 						<div class="alert alert-common">
 							Запрос на <strong>PHP</strong> можно осуществлять также методом cURL. Для работы с Xronos предпочтительно использовать специально разработанный класс «PHP-wrapper». Смотрите документацию.
 						</div>
@@ -218,34 +207,28 @@
 						<input type="text" class="datepicker" name="date" value="18.10.2017">
 
 						<h4>Общие сведения Callouts</h4>
-						<div class="info-block">
-							<p>Данные операции позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем состоянии <a href="#" class="state1">системы</a> Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
-							<p>Данные <a href="#" class="state2">операции</a> позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем <a href="#" class="state3">состоянии</a> системы Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
-						</div>
+						<p>Данные операции позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем состоянии <span class="state1">системы</span> Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
+						<p>Данные <span class="state2">операции</span> позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем <span class="state3">состоянии</span> системы Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
 						<h4>Список и буллеты</h4>
 						<p>Данные операции позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем состоянии системы Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
-						<div class="list-block">
-							<ol class="order-number">
-								<li>Данные операции</li>
-								<li>Позволяют получить позволяют</li>
-								<li>Получить информацию</li>
-								<li>О текущем состоянии системы</li>
-								<li>Xronos.space.информацию</li>
-							</ol>
-							<ol class="order-circle">
-								<li>Данные операции</li>
-								<li>Позволяют получить позволяют</li>
-								<li>Получить информацию</li>
-								<li>О текущем состоянии системы</li>
-								<li>Xronos.space.информацию</li>
-							</ol>
-						</div>
+						<ol class="order-number">
+							<li>Данные операции</li>
+							<li>Позволяют получить позволяют</li>
+							<li>Получить информацию</li>
+							<li>О текущем состоянии системы</li>
+							<li>Xronos.space.информацию</li>
+						</ol>
+						<ol class="order-circle">
+							<li>Данные операции</li>
+							<li>Позволяют получить позволяют</li>
+							<li>Получить информацию</li>
+							<li>О текущем состоянии системы</li>
+							<li>Xronos.space.информацию</li>
+						</ol>
 						<p>Данные операции позволяют получить позволяют получить информацию о текущем состоянии системы Xronos.space.информацию о текущем состоянии системы Xronos.space. Данные операции позволяют получить информацию о текущем состоянии системы Xronos.space.</p>
-						<h4>Примеры H3 Заголовок</h4>
-						<div class="main-section-example">
-							<p>Запрос из консоли (утилита curl):</p>
-							<span>с параметром:</span>
-						</div>
+						<h4>Примеры H4 Заголовок</h4>
+						<p><b>Запрос из консоли (утилита curl):</b></p>
+						<p>с параметром:</p>
 						<figure class="main-section-img-wrapper">
 							<img src="images/code.jpg" alt="SomePickture">
 							<figcaption>Image Caption Description</figcaption>

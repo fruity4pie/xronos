@@ -2264,7 +2264,17 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
+  font-size: 16px;
 }
+
+.table thead {
+  text-transform: uppercase;
+}
+
+.table tbody {
+  font-size: 14px;
+}
+
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,

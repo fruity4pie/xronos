@@ -285,7 +285,7 @@ template {
   top: 0;
   left: 0;
   padding: 4px;
-  margin-top: 1px;
+  margin: 0 0 10px 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -5166,7 +5166,7 @@ main {
 }
 
 .inner-nav {
-	margin: 0 0 67px 0;
+	margin: 0 0 40px 0;
 }
 
 .inner-nav-logo {
@@ -5218,7 +5218,7 @@ main {
 	line-height: 23px;
 	letter-spacing: 1.5px;
 	padding: 0 0 27px 0;
-	margin: 0 0 27px 0;
+	margin: 0 0 25px;
 }
 
 .main-section-wrapper h2:before {
@@ -5233,7 +5233,7 @@ main {
 	line-height: 23px;
 	text-transform: uppercase;
 	letter-spacing: 1.4px;
-	margin: 0 0 23px 0;
+	margin: 20px 0;
 }
 
 .main-section-wrapper p {
@@ -5243,7 +5243,7 @@ main {
 	font-weight: 400;
 	line-height: 22px;
 	letter-spacing: 0.15px;
-	margin: 0 0 40px 0;
+	margin: 10px 0;
 }
 
 .main-section-wrapper p a {
@@ -5261,6 +5261,7 @@ main {
 	line-height: 23px;
 	text-transform: uppercase;
 	letter-spacing: 1.26px;
+	margin: 15px 0;
 }
 
 .code-example {
@@ -5294,10 +5295,6 @@ main {
 	font-family: "Droid Sans Mono";
 	font-size: 14px;
 	font-weight: 400;
-	margin: 0;
-}
-
-.main-section-php:not(:last-child) {
 	margin: 0 0 30px 0;
 }
 
@@ -5348,12 +5345,8 @@ main {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 22px;
-	margin: 0 0 0 35px;
+	margin: 0 0 25px 35px;
 	padding: 0;
-}
-
-.order-number {
-	margin: 0 0 23px 35px;
 }
 
 .order-number li:before {
